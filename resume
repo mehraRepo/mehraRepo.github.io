@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arun Mehra · CV</title>
+  <meta name="description" content="CV / Resume of Arun Mehra – Software Developer (Python · Go · Cloud · Security · IoT · GenAI)." />
+  <meta property="og:title" content="Arun Mehra · CV" />
+  <meta property="og:description" content="Software Developer with 9+ years in Python, Go, Cloud (AWS/GCP/Azure), Security/IAM, IoT, and GenAI." />
+  <meta property="og:type" content="website" />
+  <meta name="color-scheme" content="light dark" />
+  <style>
+    :root{ --bg:#0b0c10; --card:#12131a; --fg:#e5e7eb; --muted:#9ca3af; --accent:#60a5fa; --chip:#1f2937; --link:#93c5fd; }
+    @media (prefers-color-scheme: light){ :root{ --bg:#f8fafc; --card:#ffffff; --fg:#0f172a; --muted:#475569; --accent:#2563eb; --chip:#f1f5f9; --link:#1d4ed8; } }
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, Noto Sans, "Apple Color Emoji","Segoe UI Emoji"; background:var(--bg); color:var(--fg)}
+    .wrap{max-width:960px;margin:auto;padding:24px}
+    header{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center;margin-bottom:20px}
+    .name{font-size:clamp(28px,4.5vw,40px);font-weight:800;letter-spacing:-.02em}
+    .role{color:var(--muted)}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .chip{padding:6px 10px;border-radius:999px;background:var(--chip);color:var(--fg);font-size:13px}
+    nav a{color:var(--link);text-decoration:none;margin-right:14px}
+    main{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:880px){ main{grid-template-columns:2fr 1fr} }
+    section{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:18px;padding:18px}
+    h2{font-size:18px;margin:0 0 10px 0}
+    h3{margin:14px 0 6px 0;font-size:16px}
+    ul{margin:0;padding-left:18px}
+    .row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .pill{font-size:12px;background:var(--chip);padding:4px 8px;border-radius:999px}
+    .meta{color:var(--muted);font-size:14px}
+    .grid{display:grid;gap:10px}
+    .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.12);text-decoration:none;color:var(--fg)}
+    footer{margin:18px 0;color:var(--muted);font-size:13px;text-align:center}
+    .contact{font-size:14px;color:var(--muted)}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Arun Mehra",
+    "url": "https://<your-username>.github.io/",
+    "jobTitle": "Software Developer (Python · Go · Cloud · Security · IoT · GenAI)",
+    "worksFor": {"@type":"Organization","name":"Panasonic India Pvt. Ltd."},
+    "sameAs": [
+      "https://www.linkedin.com/in/<your-handle>",
+      "https://github.com/<your-username>"
+    ],
+    "knowsAbout": ["Python","Golang","Cloud Computing","IAM","IoT","Generative AI","Kubernetes","Docker"],
+    "email": "mailto:mehraaruncdac@gmail.com"
+  }
+  </script>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="name">Arun Mehra</div>
+      <div class="role">Software Developer · 9+ years · Bengaluru, India</div>
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">Go</span>
+        <span class="chip">Cloud (AWS · GCP · Azure)</span>
+        <span class="chip">Security / IAM</span>
+        <span class="chip">IoT · MQTT · Matter</span>
+        <span class="chip">GenAI · LangChain</span>
+      </div>
+      <nav style="margin-top:10px">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="contact">
+      <div>mehraaruncdac@gmail.com · +91 74151 21322</div>
+      <a class="btn" href="resume.pdf">Download PDF</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="experience">
+      <h2>Experience</h2>
+      <article>
+        <div class="row">
+          <h3>Lead Software Developer · Panasonic India Pvt. Ltd.</h3>
+          <div class="meta">Oct 2021 — Aug 2025 · Bengaluru / Remote</div>
+        </div>
+        <ul>
+          <li>Integrated LLM assistants into IoT ecosystem for automation, support, and personalization.</li>
+          <li>MirAle platform with Matter Protocol interoperability; scalable microservices for device & home mgmt.</li>
+          <li>RBAC-based IAM for multi-tenant access; FOTA/LOTA via AWS Lambda and MQTT.</li>
+          <li>Optimized AWS security policies and incident response with DevOps & Security teams.</li>
+        </ul>
+        <div class="chips"><span class="pill">Python</span><span class="pill">Go</span><span class="pill">Flask/FastAPI</span><span class="pill">Kafka/Kinesis</span><span class="pill">AWS</span><span class="pill">Vertex AI · LangChain</span></div>
+      </article>
+      <article>
+        <div class="row">
+          <h3>Software Engineer · FireEye Cyber Security</h3>
+          <div class="meta">Oct 2020 — Oct 2021</div>
+        </div>
+        <ul>
+          <li>Built Cloud SIEM tooling for automated detection/response; GraphQL + Mongo.</li>
+          <li>Cost optimization tool with ML-based anomaly detection on AWS.</li>
+        </ul>
+      </article>
+      <article>
+        <div class="row">
+          <h3>Software Developer · Sierra Circuits</h3>
+          <div class="meta">Jun 2019 — Sep 2020</div>
+        </div>
+        <ul>
+          <li>KiCad plugin for PCB validation; Python microservices for PCB automation.</li>
+        </ul>
+      </article>
+      <article>
+        <div class="row">
+          <h3>Senior Technology Consultant · Aequm India Pvt. Ltd.</h3>
+          <div class="meta">Jun 2016 — Jun 2019</div>
+        </div>
+        <ul>
+          <li>Retail POS microservices; OCR invoice extraction with OpenCV/TensorFlow.</li>
+          <li>CI/CD with Jenkins & AWS CodePipeline.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <div class="grid cols-2">
+        <div>
+          <h3>MirAle – IoT Platform</h3>
+          <p class="meta">Interoperability via Matter; GenAI assistant integrations; energy optimization.</p>
+          <ul>
+            <li>Event-driven architecture (Kafka/Kinesis), RBAC, MQTT + HTTP real-time APIs.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Helix XDR – Cloud SIEM</h3>
+          <p class="meta">UEBA APIs, real-time dashboards, ML-based threat analytics.</p>
+          <ul>
+            <li>Kinesis/CloudWatch streaming; reduced false positives; faster incident response.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Sierra Companion App</h3>
+          <p class="meta">Real-time PCB design validation and automation.</p>
+        </div>
+        <div>
+          <h3>99POS (Retail POS)</h3>
+          <p class="meta">Billing, inventory, OCR-based document scanning.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Core Skills & Technologies</h2>
+      <div class="grid cols-3">
+        <div>
+          <h3>Programming</h3>
+          <ul><li>Python, Go, Linux scripting</li><li>REST/SOAP, MQTT, HTTP, Matter</li></ul>
+        </div>
+        <div>
+          <h3>Cloud & DevOps</h3>
+          <ul><li>AWS, GCP, Azure</li><li>Docker, Kubernetes, Terraform, Jenkins</li><li>Prometheus, Grafana, ELK</li></ul>
+        </div>
+        <div>
+          <h3>Data & AI</h3>
+          <ul><li>MySQL, PostgreSQL, MongoDB, Cassandra, SQLite</li><li>LangChain, OpenAI, Vertex AI</li><li>Pandas, NumPy, OpenCV</li></ul>
+        </div>
+        <div>
+          <h3>Security & IAM</h3>
+          <ul><li>OAuth2, OpenID, JWT, RBAC</li><li>Cloud SIEM, Threat Analytics</li></ul>
+        </div>
+        <div>
+          <h3>Monitoring</h3>
+          <ul><li>Kinesis, OpenTelemetry, QuickSight, New Relic</li></ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul><li>Git, Bitbucket, Jira, Confluence, Scrum</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>PG Diploma, Embedded System Design — CDAC Bangalore (Aug 2015)</li>
+        <li>B.E., Electronics & Communication — RGPV Bhopal (Jun 2014)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:mehraaruncdac@gmail.com">mehraaruncdac@gmail.com</a> · GitHub: <a href="https://github.com/<your-username>">@<your-username></a> · LinkedIn: <a href="https://www.linkedin.com/in/<your-handle>">@<your-handle></a></p>
+      <p class="meta">Bengaluru, India</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> Arun Mehra · Built with plain HTML/CSS · Hosted on GitHub Pages</p>
+  </footer>
+</div>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
